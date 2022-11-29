@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Vues.FrmGraphique">
+  <grid id="27dc6" binding="pnlRoot" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="20" vgap="45">
+    <margin top="30" left="45" bottom="45" right="30"/>
+    <constraints>
+      <xy x="20" y="20" width="611" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="bafe7" binding="pnlGraph1" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="980a3" class="javax.swing.JLabel" binding="lblGraphique1">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Cliquez pour afficher le graphique 1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="bb88a" binding="pnlGraph2" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="96822" class="javax.swing.JLabel" binding="lblGraphique2">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Cliquez pour afficher le graphique 2"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="152bc" binding="pnlGraph3" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="358f2" class="javax.swing.JLabel">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Cliquez pour afficher le graphique 3"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="4c8a5" binding="pnlGraph4" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f754d" class="javax.swing.JLabel" binding="lblGraphique4">
+            <constraints border-constraint="Center"/>
+            <properties>
+              <text value="Cliquez pour afficher le graphique 4"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
